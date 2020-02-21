@@ -25,7 +25,43 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="ThinkSmart"
+        android:textSize="30dp"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="387dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="213dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="145dp"
+        android:layout_height="68dp"
+        android:text="About Us"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="129dp"
+        android:layout_height="68dp"
+        android:text="Home"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="336dp"
+        android:layout_height="91dp"
+        android:text="Start Learning!"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="706dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
